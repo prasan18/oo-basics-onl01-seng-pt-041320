@@ -9,6 +9,6 @@
   def cobble
     puts "the shoe has been repaired!"
     end
-    puts 
- 
+    puts "the shoe's condition new"
+    end
 end
