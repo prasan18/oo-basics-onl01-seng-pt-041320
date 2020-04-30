@@ -1,7 +1,15 @@
-class shoe
-  def initialize(brand)
-    @brand=brand
+
+    
+    class shoe
+  attr_accessor :color,:size :, :genre
+  attr_reader :brand
+ 
+  def initialize(title)
+    @title = title
   end
-  def brand(name)
-    
-    
+ 
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
+ 
+end
