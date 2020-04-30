@@ -6,8 +6,11 @@
     @brand = brand
   end
  
-  def cobble
+  def cobble()
+    self.condition = "new"
     puts "Your shoe is as good as new!"
   return "new"
     end
 end
+
+Shoe.new("Nike")
