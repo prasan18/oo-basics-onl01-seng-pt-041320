@@ -29,6 +29,7 @@ end
 
  puts "Flipping the page...wow, you read fast!"
   end
+end
  book = Book.new("Some Title")
 book.turn_page
 
