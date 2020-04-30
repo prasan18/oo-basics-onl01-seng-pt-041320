@@ -1,6 +1,4 @@
-
-    
-    class shoe
+ class shoe
   attr_accessor :color,:size, :material,:condition, :genre
   attr_reader :brand
  
@@ -10,6 +8,7 @@
  
   def cobble
     puts "the shoe has been repaired!"
-  end
+    end
+    puts 
  
 end
