@@ -1,5 +1,5 @@
 class Book
-def initialize(title, author)
+def initialize(title, "author")
 @title = title
 end
 def title
