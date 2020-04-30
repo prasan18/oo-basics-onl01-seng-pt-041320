@@ -7,7 +7,7 @@
   end
  
   def cobble
-    puts "the shoe has been repaired!"
+    puts "!"
   end
     puts ""
     end
