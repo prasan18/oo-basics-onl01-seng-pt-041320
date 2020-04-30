@@ -1,4 +1,4 @@
- class shoe
+ class Shoe
   attr_accessor :color,:size, :material,:condition, :genre
   attr_reader :brand
  
